@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="contenedor">
+                <!-- BARRA DE NAVEGACION -->
+                <header class="header">
+                    <!-- MENU HAMBURGUESA -->
+                    <nav class="nav">
+                        <figure id="toggle-menu"
+                        class="menu-toggle">
+                            <img class="menu-hamburguesa"
+                            id="menu-hamburguesa"
+                            src="img/menu-hamburguesa.png"
+                            alt="Menú de opciones">
+                        </figure>
+
+                        <ul id="opciones"
+                        class="opciones">
+                            <li>
+                                <a href="index.html">
+                                Inicio
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="sobre-paris.html">
+                                    Sobre París
+                                </a>
+                            </li>
+                            <li>
+                                <a href="actividades.html">
+                                    Actividades
+                                </a>
+                            </li>
+                            <li>
+                                <a href="alojamiento.html">
+                                    Alojamiento
+                                </a>
+                            </li>
+                            <li>
+                                <a class="marcado"
+                                href="#">
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+
+                                    <!-- LOGOOOO -->
+                                    <figure class="logo">
+                                        <a href="index.html">
+                                            <img title="Eurotours Agencia de viajes"
+                                            class="logo-eurotours"
+                                            src="img/eurotours.png"
+                                            alt="Logo de Eurotours agencia de viajes">
+                                        </a>
+                                    </figure>
+                    </nav>
+            </header>
+
+                                                    <!-- CONTENIDO -->
+        <main class="main">
+        <section>
+
+            <div class="top-portada">
+                <figure class="portada">
+                    <img src="img/contactanos-portada.jpg" alt="Imagen de Paris de fondo" title="Torre Eiffel">
+                </figure>
+
+                <h1 class="titulo">Contáctanos</h1>
+            </div>
+
+          <div class="container-margen">
+
+                <h2>Sobre nosotros</h2>
+                <p>
+                    EuroTours es una <strong>agencia de viajes especializada en ofrecer paquetes turísticos personalizados a destinos en Europa y en todo el mundo</strong>. Nuestro equipo tiene años de experiencia en la industria del turismo y se asegura de cuidar cada detalle, desde los alojamientos hasta las actividades y excursiones. <strong>Nuestro objetivo es proporcionar a nuestros clientes experiencias de viaje inolvidables y hacer que cada viaje sea una aventura única y especial</strong>.
+                </p>
+                <h2 id="contactanos">¿En qué podemos ayudarte?</h2>
+                <p class="centrar">Déjanos tu consulta y en breve te atenderemos</p>
+
+                    <form action="autor.html" method="post" enctype="multipart/form-data">
+
+                        <label class="label-bloque" for="nombre">Nombre</label>
+                        <input required class="input-contacto" name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre">
+
+                        <label class="label-bloque" for="apellido">Apellido</label>
+                        <input required class="input-contacto" name="apellido" type="text" id="apellido" placeholder="Ingrese su apellido">
+
+                        <span class="label-bloque">Sexo</span>
+
+                        <div class="inputs-required">
+                                <div class="inputs">
+                                        <input required 
+                                        type="radio" 
+                                        id="masculino" 
+                                        name="sexo" 
+                                        value="masculino">
+                                        <label for="masculino">Masculino</label>
+                                </div>
+
+                                <div class="inputs">
+                                        <input required 
+                                        type="radio" 
+                                        id="femenino" 
+                                        name="sexo" 
+                                        value="femenino">
+                                        <label for="femenino">Femenino</label>
+                                </div>
+
+                                <div class="inputs">
+                                        <input required 
+                                        type="radio" 
+                                        id="indefinido" 
+                                        name="sexo" 
+                                        value="desconocido">
+                                        <label for="indefinido">Prefiero no decirlo</label>
+                                </div>
+                        </div>
+
+                        <label class="label-bloque" for="correo">Correo</label>
+                        <input required class="input-contacto" name="correo" type="email" id="correo" placeholder="ejemplo@ejemplo.com">
+
+                        <label class="label-bloque" for="mensaje">Mensaje</label>
+                        <textarea required name="mensaje" id="mensaje" cols="30" rows="1" placeholder="Ingrese su mensaje"></textarea>
+
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                </form>
+                </div>
+        </section>
+        </main>
+
+                                <!-- FOOTER/PIE DE PAGINA-->
+            <footer class="footer">
+                                                                        <!-- #01 -->
+                    <div class="footer-part1">
+                            <ul class="footer-opciones">
+                                <li>
+                                        <a href="sobre-paris.html#historia">
+                                        Historia
+                                        </a>
+                                </li>
+
+                                <li>
+                                        <a href="sobre-paris.html#cultura">
+                                        Cultura
+                                        </a>
+                                </li>
+
+                                <li>
+                                    <a href="sobre-paris.html">
+                                    París
+                                    </a>
+                                </li>
+
+                            </ul>
+                                                                                <!-- #02 -->
+                            <ul class="footer-opciones">
+                                <li>
+                                        <a href="actividades.html">
+                                            Actividades
+                                        </a>
+                                </li>
+
+                                <li>
+                                        <a href="alojamiento.html">
+                                            Alojamiento
+                                        </a>
+                                </li>
+
+                                <li>
+                                        <a href="actividades.html">
+                                            +Info
+                                        </a>
+                                </li>
+                            </ul>
+                                                                               <!-- #03 -->
+                        <ul class="footer-opciones">
+                                <li>
+                                    <a href="contacto.html">
+                                        Contacto
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="contacto.html#contactanos">
+                                        Nosotros
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="autor.html">
+                                        Autor
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+
+                            <!-- ACA EMPIEZAN LOS LOGOS DEL FOOTER Y LOS ICONOS -->
+                    <div class="footer-part2">
+                        <ul class="redes-sociales">
+                            <li>
+                                    <a target="_blank"
+                                    href="https://es-la.facebook.com/">
+                                            <img src="img/facebook-icono.png"
+                                            alt="Logo de facebook">
+                                    </a>
+                            </li>
+
+                            <li>
+                                    <a target="_blank"
+                                    href="https://twitter.com/carlosmven97">
+                                            <img src="img/twitter-icono.png"
+                                            alt="Logo de Twitter">
+                                    </a>
+                            </li>
+
+                            <li>
+                                    <a target="_blank"
+                                    href="https://ar.linkedin.com/">
+                                            <img src="img/linkedin-icono.png"
+                                            alt="Logo de Linkedin">
+                                    </a>
+                            </li>
+
+                            <li>
+                                    <a target="_blank"
+                                    href="https://www.instagram.com/">
+                                            <img src="img/instagram-icono.png"
+                                            alt="Logo de Instagram">
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+            </footer>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
